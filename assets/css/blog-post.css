@@ -1,0 +1,94 @@
+.blog-post header {
+  text-align: center;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+.post {
+  width: 80%;
+}
+.blog-post section {
+  background-color: #707e91;
+  color: #fff;
+  line-height: 1.5;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+.maincontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-post #post-title {
+  color: #f7882f;
+}
+
+.blog-post h3 {
+  color: #f7882f;
+}
+.sidenav {
+  width: 20%;
+}
+.sidenav a {
+  text-decoration: underline;
+  color: #4403f5;
+  display: block;
+}
+
+.sidenav label {
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.sidenav ul {
+  list-style: none;
+}
+
+button {
+  padding: 0.6em 2em;
+  border-radius: 6px;
+  color: #4403f5;
+  font-size: 1.1em;
+  border: 0;
+  cursor: pointer;
+  margin: 1em;
+  background-color: #707e91;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.button li {
+  float: left;
+}
+
+.button li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.button li a:hover {
+  background-color: #5a7396;
+}
+@media (max-width: 767px) {
+  .sidenav {
+    display: none;
+  }
+  .post {
+    width: 100%;
+  }
+}
